@@ -1,4 +1,5 @@
 SCRIPTING DAILY
+
 As it name implies, it's going to be a daily practice of scripting.
 
 I'll be working with Python, Bash and Powershell to improve my scripting abilities across different environments.
