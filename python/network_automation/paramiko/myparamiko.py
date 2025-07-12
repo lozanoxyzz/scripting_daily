@@ -20,6 +20,7 @@ def send_command(shell, command, timeout=1):
     print(f'Sending command: {command}')
     shell.send(command + '\n')
     time.sleep(timeout)
+    return shell.recv(10000)
 
 def show(shell, n=10000):
     output = shell.recv(n)
