@@ -1,0 +1,11 @@
+
+IOU1>enable
+Password: 
+IOU1#terminal length 0
+IOU1#show users
+    Line       User       Host(s)              Idle       Location
+*  2 vty 0     gozzki     idle                 00:00:00 10.10.10.10
+
+  Interface    User               Mode         Idle     Peer Address
+
+IOU1#
