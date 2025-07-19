@@ -16,8 +16,20 @@ cisco_device = {
 
 connection = ConnectHandler(**cisco_device)
 
-output = connection.send_command('sh ip int br')
+if '>' in connection.find_prompt():
+    connection.enable()
+
+output = connection.send_command('sh run')
 print(output)
+
+if not connection.check_config_mode():
+    connection.config_mode()
+
+#print(connection.check_config_mode())
+
+connection.send_command('username u3 secret cisco')
+
+
 
 print('Closing connection')
 connection.disconnect()
