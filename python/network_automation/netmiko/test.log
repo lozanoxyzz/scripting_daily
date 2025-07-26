@@ -1,0 +1,1520 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x32a27740
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.12.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.12
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.6p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: sntrup761x25519-sha512@openssh.com, curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, ext-info-s, kex-strict-s-v00@openssh.com
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Strict kex mode: True
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:Resetting outbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Resetting inbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.14: b'028c78b65254616925e7deaed7fe585d'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,rsa-sha2-512,rsa-sha2-256', 'publickey-hostbound@openssh.com': b'0', 'ping@openssh.com': b'0'}
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.11.0-29-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+214 updates can be applied immediately.
+62 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+11 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+Last login: Sat Jul 26 16:17:50 2025 from 192.168.1.19
+
+********@********vmware:~$ 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.11.0-29-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+214 updates can be applied immediately.
+62 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+11 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+Last login: Sat Jul 26 16:17:50 2025 from 192.168.1.19
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is ********@********vmware:~$
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (********@********vmware:\~.*) 
+
+********@********vmware:~$ 
+DEBUG:netmiko:write_channel: b'sudo -s\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: sudo -s
+
+[sudo] password for ********: 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: ((?m:#\s*$)|ssword)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$)|ssword) sudo -s
+
+[sudo] password
+DEBUG:netmiko:write_channel: b'********\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: root@********vmware:/home/********# 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: (?m:#\s*$)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$))  for ********: 
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: (?m:#\s*$)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$)) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is root@********vmware:/home/********#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+root@********vmware:/home/********#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is root@********vmware:/home/********#
+DEBUG:netmiko:write_channel: b'apt update && apt install -y apache2\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: apt update && apt install -y apache2
+
+
+0% [Working]
+DEBUG:netmiko:Pattern found: (apt\ update\ \&\&\ apt\ install\ \-y\ apache2) apt update && apt install -y apache2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [Waiting for headers] [Connecting to security.ubuntu.com (185.125.190.82)]
+DEBUG:netmiko:read_channel: 
+                                                                             
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+
+                                                                             
+0% [Connecting to security.ubuntu.com (185.125.190.82)]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                                       
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+
+0% [2 InRelease 13.8 kB/126 kB 11%] [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                                         
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+
+                                                         
+0% [2 InRelease 37.7 kB/126 kB 30%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [2 InRelease 67.3 kB/126 kB 53%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [2 InRelease 87.0 kB/126 kB 69%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                   
+0% [Working]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+            
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+
+0% [Working]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [Working]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+            
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,282 kB]
+
+0% [5 Packages 5,391 B/1,282 kB 0%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+27% [5 Packages 98.3 kB/1,282 kB 8%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+42% [5 Packages 559 kB/1,282 kB 44%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+49% [5 Packages 788 kB/1,282 kB 61%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+56% [5 Packages 1,021 kB/1,282 kB 80%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+62% [5 Packages 1,201 kB/1,282 kB 94%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                      
+64% [Working]
+64% [5 Packages store 0 B] [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                                
+65% [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                         
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,113 kB]
+DEBUG:netmiko:read_channel: 
+
+65% [6 Packages 15.2 kB/1,113 kB 1%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+75% [6 Packages 317 kB/1,113 kB 28%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+85% [6 Packages 636 kB/1,113 kB 57%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+91% [6 Packages 847 kB/1,113 kB 76%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+98% [6 Packages 1,044 kB/1,113 kB 94%]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+100% [Working]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     405 kB/s 0s
+100% [6 Packages store 0 B]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        405 kB/s 0s
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+100% [Working]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     405 kB/s 0s
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+Fetched 2,521 kB in 6s (391 kB/s)
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 28%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 76%
+
+Reading package lists... 76%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 208 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: apache2 is already the newest version (2.4.58-1ubuntu8.7).
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 0 upgraded, 0 newly installed, 0 to remove and 208 not upgraded.
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: root@********vmware:/home/********# 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: exit
+
+exit
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (exit) exit
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+exit
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is ********@********vmware:~$
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (********@********vmware:\~.*) 
+
+********@********vmware:~$ 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0xdb79eab0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.12.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.12
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.6p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: sntrup761x25519-sha512@openssh.com, curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, ext-info-s, kex-strict-s-v00@openssh.com
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Strict kex mode: True
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:Resetting outbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Resetting inbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.14: b'028c78b65254616925e7deaed7fe585d'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,rsa-sha2-512,rsa-sha2-256', 'publickey-hostbound@openssh.com': b'0', 'ping@openssh.com': b'0'}
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.11.0-29-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+214 updates can be applied immediately.
+62 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+11 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+Last login: Sat Jul 26 16:21:09 2025 from 192.168.1.19
+
+********@********vmware:~$ 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.11.0-29-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+214 updates can be applied immediately.
+62 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+11 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+Last login: Sat Jul 26 16:21:09 2025 from 192.168.1.19
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is ********@********vmware:~$
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (********@********vmware:\~.*) 
+
+********@********vmware:~$ 
+DEBUG:netmiko:write_channel: b'sudo -s\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: sudo -s
+
+[sudo] password for ********: 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: ((?m:#\s*$)|ssword)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$)|ssword) sudo -s
+
+[sudo] password
+DEBUG:netmiko:write_channel: b'********\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: root@********vmware:/home/********# 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: (?m:#\s*$)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$))  for ********: 
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:
+Parenthesis found in pattern.
+
+pattern: (?m:#\s*$)
+
+
+This can be problemtic when used in read_until_pattern().
+
+You should ensure that you use either non-capture groups i.e. '(?:' or that the
+parenthesis completely wrap the pattern '(pattern)'
+DEBUG:netmiko:Pattern found: ((?m:#\s*$)) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is root@********vmware:/home/********#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+root@********vmware:/home/********#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is root@********vmware:/home/********#
+DEBUG:netmiko:write_channel: b'apt update && apt install -y apache2\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: apt update && apt install -y apache2
+
+
+0% [Working]
+DEBUG:netmiko:Pattern found: (apt\ update\ \&\&\ apt\ install\ \-y\ apache2) apt update && apt install -y apache2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [Connecting to archive.ubuntu.com (185.125.190.82)] [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                                                                            
+Hit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+
+                                                                            
+0% [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                        
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+
+0% [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+0% [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+                        
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+
+                        
+0% [Working]
+0% [Waiting for headers]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+0% [Waiting for headers]
+                        
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+
+                        
+0% [Working]
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+20% [Working]
+             
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 29%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 44%
+
+Reading package lists... 44%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 69%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 73%
+
+Reading package lists... 73%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 76%
+
+Reading package lists... 76%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Reading package lists... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 208 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 0%
+
+DEBUG:netmiko:read_channel: 
+Reading package lists... 100%
+
+Reading package lists... Done
+
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 50%
+
+DEBUG:netmiko:read_channel: 
+Building dependency tree... 50%
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Building dependency tree... Done
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: apache2 is already the newest version (2.4.58-1ubuntu8.7).
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 0 upgraded, 0 newly installed, 0 to remove and 208 not upgraded.
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: root@********vmware:/home/********# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:Pattern found: (root@********vmware:/home/********.*) 
+
+root@********vmware:/home/********# 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: exit
+
+exit
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (exit) exit
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+exit
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: ([\$\#]) 
+
+********@********vmware:~$
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is ********@********vmware:~$
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+********@********vmware:~$ 
+DEBUG:netmiko:Pattern found: (********@********vmware:\~.*) 
+
+********@********vmware:~$ 
+DEBUG:netmiko:write_channel: b'exit\n'
