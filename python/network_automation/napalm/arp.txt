@@ -1,0 +1,14 @@
+[
+    {
+        "age": -1.0,
+        "interface": "Ethernet0/0",
+        "ip": "10.10.10.1",
+        "mac": "AA:BB:CC:00:01:00"
+    },
+    {
+        "age": 3.0,
+        "interface": "Ethernet0/0",
+        "ip": "10.10.10.10",
+        "mac": "9A:99:75:3A:F5:E1"
+    }
+]
