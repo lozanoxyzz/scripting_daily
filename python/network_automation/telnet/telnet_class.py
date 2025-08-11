@@ -1,6 +1,9 @@
 import time
 import telnetlib
 
+from python.network_automation.paramiko.exercises.myparamiko import send_from_file
+
+
 class Device:
     def __init__(self, host, user, password,tn=None):
         self.host = host
@@ -33,6 +36,11 @@ class Device:
         for command in commands_list:
             self.send(command)
 
+    def send_from_file(self,file):
+        with open(file) as f:
+            commands = f.read().splitlines()
+
+        self.send_from_list(commands)
 
 
 
